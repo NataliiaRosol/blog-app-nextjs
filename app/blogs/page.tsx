@@ -1,12 +1,9 @@
 import React from "react";
-import { Button, buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button";
 import SampleBlogs from "../config/sampleblogs";
 import Link from "next/link";
 
-// import fs, { readFileSync } from "fs";
-// import matter from "gray-matter";
-// import Link from "next/link";
-// import { Metadata } from "next";
+
 
 interface BlogType {
   slug: string;
@@ -15,22 +12,6 @@ interface BlogType {
   imageUrl?: string;
 }
 
-// const dirContent = fs.readdirSync("content", "utf-8")
-// console.log(dirContent)
-
-// const blogs: BlogType[] = dirContent.map(file=>{
-//   const fileContent = readFileSync(`content/${file}`, "utf-8");
-//   const {data} = matter(fileContent)
-//   const value: BlogType = {
-//     slug: data.slug,
-//     title: data.title,
-//     description: data.description,
-//     imageUrl: data?.imageUrl
-//   }
-//   return value
-// })
-
-// console.log(blogs)
 
 const BlogList = () => {
   return (
@@ -61,9 +42,5 @@ const BlogList = () => {
   );
 };
 
-// export const metadata: Metadata = {
-//   title: 'Blogs - ProgrammingWithHarry',
-//   description: 'A comprehensive blog for coders of all levels, from beginners to advanced. Explore tutorials, tips, and insights on a wide range of programming languages and technologies. Stay up-to-date with the latest trends in software development, learn best practices, and enhance your coding skills with in-depth articles and guides.',
-// }
 
 export default BlogList;

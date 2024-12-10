@@ -24,7 +24,7 @@ function About() {
               Hello! My name is Nataliia, and I’m a passionate Frontend Developer dedicated to crafting engaging and user-friendly web experiences. With a strong foundation in modern web development technologies, I thrive on turning ideas into functional, visually appealing websites and applications.
               </p>
               <p className="text-gray-600 text-lg">
-                Whether you're just starting out or looking to sharpen your skills, you'll find a variety of resources and insights here. Let's explore the world of programming together!
+                Whether you&apos;re just starting out or looking to sharpen your skills, you&apos;ll find a variety of resources and insights here. Let&apos;s explore the world of programming together!
               </p>
             </div>
           </div>
