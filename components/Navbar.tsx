@@ -2,7 +2,6 @@
 
 import Link from 'next/link'
 import LoadingBar from 'react-top-loading-bar'
-import { Button } from "@/components/ui/button"
 import { buttonVariants } from "@/components/ui/button"
 import { ModeToggle } from './theme-toggle'
 import { Menu } from 'lucide-react';
